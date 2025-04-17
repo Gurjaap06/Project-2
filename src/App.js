@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import LandingPage from "./LandingPage";
+import LoginPage from "./LoginPage";
+import SignupPage from "./SignupPage";
+import HomePage from "./HomePage";
+import MarketplacePage from "./MarketplacePage";
+import FriendsPage from "./FriendsPage";
+import WatchPage from "./WatchPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [page, setPage] = useState("landing");
+  const handleNavigate = (target) => setPage(target);
+
+  const pages = {
+    landing: <LandingPage onNavigate={handleNavigate} />,
+    login: <LoginPage onNavigate={handleNavigate} />,
+    signup: <SignupPage onNavigate={handleNavigate} />,
+    home: <HomePage onNavigate={handleNavigate} />,
+    marketplace: <MarketplacePage onNavigate={handleNavigate} />,
+    friends: <FriendsPage onNavigate={handleNavigate} />,
+    watch: <WatchPage onNavigate={handleNavigate} />,
+  };
+
+  return pages[page] || pages.landing;
 }
 
 export default App;
