@@ -11,10 +11,11 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    backgroundColor: "#fff",
+    backgroundColor: "rgb(41, 66, 255)",
+    color: "#fff",
     textAlign: "center",
     padding: "1rem",
     fontSize: "0.875rem",
-    color: "#606770",
+    
   },
 };
