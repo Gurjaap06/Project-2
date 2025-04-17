@@ -35,6 +35,6 @@ const styles = {
     border: "none",
     borderRadius: "0.25rem",
     backgroundColor: "#1877f2",
-    color: "#fff",
+    color: "rgb(255, 255, 255)",
   },
 };
