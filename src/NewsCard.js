@@ -8,7 +8,7 @@ export default function NewsCard({ title, summary }) {
     </div>
   );
 }
-
+// This component use for the include the css in news card.
 const newsStyles = {
   card: {
     backgroundColor: "#fff",
@@ -19,4 +19,5 @@ const newsStyles = {
   },
   title: { margin: "0 0 0.5rem 0" },
   summary: { margin: 0, fontSize: "0.9rem", color: "#333" },
+
 };
