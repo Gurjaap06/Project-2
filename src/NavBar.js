@@ -51,6 +51,8 @@ const styles = {
     cursor: "pointer",
     color: "#fff",
   },
+
+
   logoutButton: {
     padding: "0.5rem 1rem",
     fontSize: "1rem",
