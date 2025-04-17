@@ -13,7 +13,7 @@ export default function FriendsPage({ onNavigate }) {
         <ul style={styles.list}>
           {friends.map((name) => (
             <li key={name} style={styles.listItem}>
-              {name}
+             {name}
             </li>
           ))}
         </ul>
@@ -39,6 +39,7 @@ const styles = {
     listStyle: "none",
     padding: 0,
     marginTop: "1rem",
+    backgroundColor: "rgb(248, 253, 255)",
   },
   listItem: {
     padding: "0.75rem",
