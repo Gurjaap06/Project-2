@@ -30,8 +30,9 @@ const styles = {
     alignItems: "center",
     justifyContent: "space-between",
     padding: "0.5rem 1rem",
-    backgroundColor: "#fff",
+    backgroundColor: "rgb(255, 255, 255)",
     boxShadow: "0 1px 2px rgba(0,0,0,0.1)",
+    color: "#fff",
   },
   logo: {
     fontSize: "1.5rem",
@@ -41,12 +42,14 @@ const styles = {
   navLinks: {
     display: "flex",
     gap: "1rem",
+    color: "#fff",
   },
   navButton: {
     background: "none",
     border: "none",
     fontSize: "1rem",
     cursor: "pointer",
+    color: "#fff",
   },
   logoutButton: {
     padding: "0.5rem 1rem",
@@ -55,5 +58,6 @@ const styles = {
     border: "none",
     borderRadius: "0.25rem",
     backgroundColor: "#e0e0e0",
+    color: "#fff",
   },
 };
