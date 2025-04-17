@@ -30,7 +30,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "space-between",
     padding: "0.5rem 1rem",
-    backgroundColor: "rgb(255, 255, 255)",
+    backgroundColor: "rgb(41, 66, 255)",
     boxShadow: "0 1px 2px rgba(0,0,0,0.1)",
     color: "#fff",
   },
