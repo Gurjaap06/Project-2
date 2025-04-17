@@ -61,6 +61,8 @@ const styles = {
     justifyContent: "center",
     height: "100vh",
     backgroundColor: "#fff",
+    border: "1px solid #ccc",
+    borderRadius: "0.5rem",
   },
   form: {
     display: "flex",
