@@ -9,7 +9,7 @@ export default function MarketplacePage({ onNavigate }) {
     { id: 3, name: "Bicycle", price: "$85" },
     { id: 4, name: "Desk Lamp", price: "$30" },
     { id: 5, name: "Headphones", price: "$60" },
-    { id: 6, name: "Coffee Maker", price: "$45" },
+    { id: 6, name: "Coffee Maker", price: "$44" },
     { id: 7, name: "Backpack", price: "$70" },
     { id: 8, name: "Sneakers", price: "$80" },
     { id: 9, name: "Smartphone", price: "$300" },
