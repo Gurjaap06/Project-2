@@ -57,7 +57,8 @@ const styles = {
     cursor: "pointer",
     border: "none",
     borderRadius: "0.25rem",
-    backgroundColor: "#e0e0e0",
+    backgroundColor: "rgb(16,16,255)",
+    boxShadow: "0 1px 2px rgba(255, 255, 255, 0.1)",
     color: "#fff",
   },
 };
