@@ -8,14 +8,20 @@ export default function HomePage({ onNavigate }) {
   const [posts, setPosts] = useState([
     {
       id: 1,
-      user: "Alice",
+      user: "Gurjaap",
       avatar: "/avatars/alice.jpg",
       content: "Hello world!",
     },
     {
       id: 2,
-      user: "Bob",
+      user: "Ravi",
       avatar: "/avatars/bob.jpg",
+      content: "Enjoying React! 😊",
+    },
+    {
+      id: 3,
+      user: "Manisha",
+      avatar: "/avatars/Manisha.jpg",
       content: "Enjoying React! 😊",
     },
   ]);
