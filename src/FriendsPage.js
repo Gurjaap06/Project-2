@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 export default function FriendsPage({ onNavigate }) {
-  const friends = ["Gurjaap", "Ravi", "Manisha", "Dana"];
+  const friends = ["Alice", "Bob", "Charlie", "Dana"];
 
   return (
     <div style={styles.pageContainer}>
